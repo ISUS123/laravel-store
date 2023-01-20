@@ -17,4 +17,16 @@ class MainController extends Controller
     public function product($product = null) {
         return view('product', ['product' => $product]);
     }
+
+    public function location() {
+        return view('location');
+    }
+
+    public function login() {
+        return view('login');
+    }
+
+    public function register() {
+        return view('register');
+    }
 }

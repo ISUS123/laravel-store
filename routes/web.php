@@ -18,3 +18,6 @@ Route::get('/', 'MainController@index');
 Route::get('/about_company', 'MainController@about_company');
 Route::get('/catalog', 'MainController@index');
 Route::get('/product/{product?}', 'MainController@product');
+Route::get('/location', 'MainController@location');
+Route::get('/login', 'MainController@login');
+Route::get('/register', 'MainController@register');
